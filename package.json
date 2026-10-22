@@ -1,0 +1,14 @@
+﻿{
+  "name": "hs-codes-mcp",
+  "version": "1.0.0",
+  "description": "HS Codes MCP server for AI agents. Classify products into Harmonized System codes.",
+  "main": "mcp-server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node mcp-server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.23.0",
+    "zod": "^4.0.0"
+  }
+}
